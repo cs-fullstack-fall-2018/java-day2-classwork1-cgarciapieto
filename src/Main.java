@@ -8,11 +8,12 @@ public class Main {
         String thoughts = "";
         System.out.println("How awesome is Kenn and Kevin?");
         thoughts = consoleInput.nextLine();
-        while (!thoughts.equals("very awesome"));
-        System.out.println("Wrong");
+        while (!thoughts.equals("very awesome")) {
+            System.out.println("Wrong");
 
-        thoughts =consoleInput.nextLine();
-
+            thoughts = consoleInput.nextLine();
+            System.out.println();
+        }
 
         }
     }
